@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrimadh Ramayanam Telugu Episodes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #ffe066;
+            padding: 40px 0;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #6a4c93;
+            animation: floatUpDown 3s ease-in-out infinite, fadeIn 2s;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .plan {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s;
+        }
+        .plan h2 {
+            color: #ff7043;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .plan p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #666;
+        }
+        .advantages {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .advantages li {
+            font-size: 1.1em;
+            background-color: #e0f7fa;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .advantages li:hover {
+            transform: scale(1.05);
+            background-color: #b2ebf2;
+        }
+        .btn-purchase {
+            background-color: #6a4c93;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn-purchase:hover {
+            background-color: #5a3a73;
+            transform: scale(1.05);
+        }
+        @keyframes floatUpDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes lordShreeRamAnimation {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        .lord-shree-ram {
+            animation: lordShreeRamAnimation 3s ease-in-out infinite;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .video-container {
+                margin-bottom: 10px;
+            }
+            .plan h2 {
+                font-size: 1.5em;
+            }
+            .plan p {
+                font-size: 1em;
+            }
+            .btn-purchase {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="lord-shree-ram">Shrimadh Ramayanam Telugu Episodes</h1>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="plan">
+            <h2>Special Plan - ₹149</h2>
+            <p>Get access to all episodes of Shrimadh Ramayanam in 1080p HD with Dolby Vision audio and lifetime content access on Telegram.</p>
+            <ul class="advantages">
+                <li>All episodes available</li>
+                <li>1080p HD videos</li>
+                <li>Dolby Vision audio</li>
+                <li>Lifetime content access</li>
+                <li>Accessible via Telegram</li>
+            </ul>
+            <button class="btn-purchase" onclick="purchasePlan()">Purchase Plan</button>
+        </div>
+    </div>
+
+    <script>
+        function purchasePlan() {
+            alert('Thank you for your purchase! You will receive the access details shortly.');
+            // Implement the purchase logic here, such as redirecting to a payment gateway.
+        }
+    </script>
+</body>
+</html>
